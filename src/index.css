@@ -1,0 +1,25 @@
+/* ====UNIVERSAL SELECTOR==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====CSS VARIABLES==== */
+:root {
+  --green-color: rgb(106, 151, 57);
+  --dark-green: rgb(139, 195, 74);
+  --white-color: white;
+  --light-white: rgba(229, 231, 235, 0.219);
+  --black-color: black;
+  --light-black: rgb(51, 51, 51);
+  --star-color: rgb(253, 186, 116);
+
+  /* ====FONTS==== */
+  --open-sans: "Open Sans", sans-serif;
+  --merriweather-font: "Merriweather", serif;
+}
+
+a {
+  text-decoration: none;
+}
