@@ -263,6 +263,7 @@
     flex-direction: column;
   }
   .shop-sub-container div {
+    justify-items: center;
     width: 50%;
   }
   .products-footer-container {

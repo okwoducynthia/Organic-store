@@ -97,7 +97,7 @@
 
 /* ====FAVOURITE SECTION STARTS HERE==== */
 .favourite-image {
-  text-align: center;
+  justify-items: center;
   margin-bottom: 70px;
 }
 .favourite-image img {

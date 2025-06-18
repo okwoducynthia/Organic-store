@@ -95,7 +95,7 @@
 }
 /* ====HERO SECTION ENDS HERE==== */
 .details-heading {
-  text-align: center;
+  justify-items: center;
 }
 .details-heading img {
   width: 11%;
