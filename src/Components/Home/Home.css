@@ -651,7 +651,10 @@
     padding-bottom: 15px;
   }
   .delivery-container div {
-    width: 90%;
+    width: 90%;   
+  }
+  .delivery-sub-container div {
+    width: 70%;
   }
   .best-container-main {
     height: 100%;
