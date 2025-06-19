@@ -5,6 +5,7 @@ import { BsSearch } from "react-icons/bs";
 import { useState } from "react";
 
 const Home = () => {
+
   const [sidebar, setSidebar] = useState(false);
   const toggleSidebar = () => {
     setSidebar(!sidebar);
@@ -43,6 +44,7 @@ const Home = () => {
         </div>
       )}
 
+      
       {/* ====NAVBAR SECTION STARTS HERE====  */}
       <header className="header-container">
         <div className="header-logo">

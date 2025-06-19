@@ -5,6 +5,7 @@ import { BsSearch } from "react-icons/bs";
 import { useState } from "react";
 
 const About = () => {
+  
   const [sidebar, setSidebar] = useState(false);
   const toggleSidebar = () => {
     setSidebar(!sidebar);
