@@ -559,7 +559,8 @@
   color: var(--white-color);
 }
 .div-divider {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   border: none;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.267);
