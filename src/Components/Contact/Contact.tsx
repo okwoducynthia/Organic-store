@@ -114,7 +114,7 @@ const Contact = () => {
        </section>
        {/* -- ====CONTACT DETAILS SECTION ENDS HERE====  */}
 
-       {/* -- ====FOOTER SECTION STARTS HERE====  */}
+       {/* -- ====FOOTER SECTION STARTS HERE==== 
     <footer>
       <div className="contact-footer-container">
         <div className="contact-footer-first">
@@ -172,7 +172,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </footer> */}
     {/* -- ====FOOTER SECTION ENDS HERE==== </main> */}
     </div>
   )
