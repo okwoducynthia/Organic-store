@@ -681,14 +681,14 @@
   }
   .best-sub-container {
     flex-direction: column;
+    justify-items: center;
   }
   .best-sub-container div {
-    width: 90%;
+    width: 80%;
     margin-bottom: 30px;
   }
   .best-sub img {
-    width: 95%;
-    height: 250px;
+    width: 100%;
   }
   .fresh-container {
     height: 100%;
@@ -722,12 +722,11 @@
     flex-direction: column;
   }
   .trend-sub-container div {
-    width: 95%;
+    width: 80%;
     margin-bottom: 30px;
   }
   .trend-sub img {
-    width: 90%;
-    height: 250px;
+    width: 100%;
   }
   .customers-container {
     height: 100%;
