@@ -364,10 +364,10 @@ const Home = () => {
         <section className="customers-container">
           <div className="customers-heading">
             <h1>Customers Reviews</h1>
-            <img
+            {/* <img
               src="/images/logo-leaf-new.png"
               alt="image of a green leaf logo"
-            />
+            /> */}
           </div>
 
           <div className="customers-sub-container">
