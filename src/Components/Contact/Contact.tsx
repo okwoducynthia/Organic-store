@@ -2,15 +2,15 @@ import "./Contact.css"
 // import { NavLink } from "react-router-dom"
 // import { MdClose } from "react-icons/md";
 // import { BsSearch } from "react-icons/bs";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 const Contact = () => {
 
-  const [sidebar, setSidebar] = useState(false);
-      const toggleSidebar = () => {
-        setSidebar(!sidebar);
-      }
+  // const [sidebar, setSidebar] = useState(false);
+  //     const toggleSidebar = () => {
+  //       setSidebar(!sidebar);
+  //     }
 
   return (
     <div>
