@@ -97,6 +97,7 @@
   align-items: center;
 }
 .shop-sub-container div {
+  justify-items: center;
   text-align: center;
   margin-bottom: 30px;
   width: 30%;
@@ -283,23 +284,23 @@
   .products-footer-icons {
     flex-direction: column;
   }
-  .products-footer-first img {
-    width: 30%;
-  }
 }
 
 @media (max-width: 480px) {
   .products-header-container {
-    height: 4rem;
+    height: 70px;
   }
   .products-header-logo img {
     width: 100%;
   }
   .shop-sub-container div {
-    width: 80%;
+    width: 90%;
   }
   .shop-details img {
-    width: 70%;
+    width: 90%;
+  }
+  .products-footer-first img{
+    width: 40%;
   }
   .products-footer-first h4 {
     font-size: 15px;

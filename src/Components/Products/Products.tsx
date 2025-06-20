@@ -45,10 +45,10 @@ const Products = () => {
         )}
       {/* -- ====NAVBAR SECTION STARTS HERE====  */}
     <header className="products-header-container">
-      <div className="about-header-logo">
+      <div className="products-header-logo">
         <img
           src="/images/organic-store-logo5.svg"
-          alt="Organic store white logo"
+          alt="Organic store logo"
         />
       </div>
 
