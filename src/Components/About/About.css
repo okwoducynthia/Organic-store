@@ -160,10 +160,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 60vh;
+  height: 22rem;
 }
 .about-footer-container div {
   width: 20%;
+}
+.about-footer-first {
+  justify-items: center;
 }
 .about-footer-first h4 {
   font-size: 17px;
@@ -336,6 +339,9 @@
     width: 80%;
     text-align: center;
     margin-bottom: 20px;
+  }
+  .about-footer-first img {
+    width: 25%;
   }
   .about-footer-icons {
     flex-direction: column;

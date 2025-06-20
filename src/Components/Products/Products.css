@@ -145,6 +145,9 @@
 .products-footer-container div {
   width: 20%;
 }
+.products-footer-first {
+  justify-items: center;
+}
 .products-footer-first h4 {
   font-size: 17px;
   font-family: var(--merriweather-font);
@@ -280,20 +283,23 @@
   .products-footer-icons {
     flex-direction: column;
   }
+  .products-footer-first img {
+    width: 30%;
+  }
 }
 
 @media (max-width: 480px) {
   .products-header-container {
-    height: 10vh;
+    height: 4rem;
   }
   .products-header-logo img {
     width: 100%;
   }
   .shop-sub-container div {
-    width: 90%;
+    width: 80%;
   }
   .shop-details img {
-    width: 80%;
+    width: 70%;
   }
   .products-footer-first h4 {
     font-size: 15px;

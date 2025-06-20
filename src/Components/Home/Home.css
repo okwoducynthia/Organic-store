@@ -173,12 +173,13 @@
 
 /* ====BEST PRODUCTS SECTION STARTS HERE==== */
 .best-container-main {
-  height: 100vh;
+  height: 40rem;
   justify-items: center;
   align-content: center;
 }
 .best-heading {
   justify-items: center;
+  text-align: center;
 }
 .best-heading h1 {
   font-size: 30px;
@@ -317,7 +318,7 @@
 
 /* ====TRENDING PRODUCTS SECTION STARTS HERE==== */
 .trending-container {
-  height: 100vh;
+  height: 40rem;
   justify-items: center;
   align-content: center;
 }
@@ -371,7 +372,7 @@
   background-repeat: no-repeat;
   background-size: 30rem;
   background-color: rgba(248, 246, 243, 0.473);
-  height: 100vh;
+  height: 40rem;
   padding-top: 60px;
 }
 .customers-heading {
@@ -386,6 +387,7 @@
 }
 .customers-sub-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -472,7 +474,7 @@
   flex-wrap: wrap;
   background-color: rgb(248, 246, 243);
   margin-top: 70px;
-  height: 20vh;
+  height: 9rem;
 }
 .brand-container div {
   width: 15%;
@@ -490,10 +492,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 60vh;
+  height: 22rem;
 }
 .footer-container div {
   width: 20%;
+}
+.footer-first {
+  justify-items: center;
 }
 .footer-first h4 {
   font-size: 17px;
@@ -613,8 +618,20 @@
     width: 30%;
   }
   .customers-deal h1 {
-    font-size: 27px;
+    font-size: 22px;
     width: 100%;
+  }
+  .customers-sub P  {
+    font-size: 15px;
+  }
+  .customers-sub h4 {
+    font-size: 15px;
+  }
+  .customers-deal p {
+    font-size: 15px;
+  }
+  .customers-deal button {
+    font-size: 12px;
   }
 }
 
@@ -665,12 +682,12 @@
     flex-direction: column;
   }
   .best-sub-container div {
-    width: 95%;
+    width: 90%;
     margin-bottom: 30px;
   }
   .best-sub img {
-    width: 100%;
-    height: 300px;
+    width: 95%;
+    height: 250px;
   }
   .fresh-container {
     height: 100%;
@@ -684,7 +701,7 @@
     height: 300px;
   }
   .fresh-description img {
-    width: 40%;
+    width: 25%;
   }
   .first-container {
     flex-direction: column;
@@ -708,8 +725,8 @@
     margin-bottom: 30px;
   }
   .trend-sub img {
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 250px;
   }
   .customers-container {
     height: 100%;
@@ -754,6 +771,9 @@
     text-align: center;
     margin-bottom: 20px;
   }
+  .footer-first img {
+    width: 25%;
+  }
   .footer-icons {
     flex-direction: column;
   }
@@ -781,6 +801,9 @@
   .fresh-image img {
     width: 25%;
   }
+  .fresh-description button {
+    padding: 12px 20px;
+  }
   .first-container h1 {
     font-size: 20px;
   }
@@ -799,12 +822,6 @@
   }
   .customers-heading {
     margin-bottom: 20px;
-  }
-  .customers-sub-container div {
-    width: 90%;
-  }
-  .customers-deal h1 {
-    font-size: 22px;
   }
   .footer-first h4 {
     font-size: 15px;
