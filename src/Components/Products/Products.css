@@ -240,15 +240,6 @@
 
 /* ====MEDIA QUERY STARTS HERE==== */
 @media (max-width: 1324px) {
-  .products-header-container div:nth-of-type(1) {
-    width: 20%;
-  }
-  .products-header-container div:nth-of-type(2) {
-    width: 50%;
-  }
-  .products-header-container div:nth-of-type(3) {
-    width: 20%;
-  }
   .products-header-logo img {
     width: 60%;
   }
