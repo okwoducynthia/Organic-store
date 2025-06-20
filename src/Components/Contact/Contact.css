@@ -235,7 +235,7 @@
 
 /* ====MEDIA QUERY STARTS HERE==== */
 
-@media (max-width: 834px) {
+@media (max-width: 53rem) {
   .contact-header-navlinks li {
     display: none;
   }
@@ -281,7 +281,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .contact--header-container {
     height: 10vh;
   }

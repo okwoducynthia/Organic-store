@@ -79,15 +79,15 @@ const Contact = () => {
     {/* -- ====NAVBAR SECTION ENDS HERE====  */}
 
     {/* -- ====HERO SECTION STARTS HERE====  */}
-      <section>
+      {/* <section>
         <div className="contact-hero">
           <h1>Get In Touch</h1>
         </div>
-      </section>
+      </section> */}
       {/* -- ====HERO SECTION ENDS HERE====  */}
 
       {/* -- ====CONTACT DETAILS SECTION STARTS HERE====  */}
-       {/* <section className="details-main-container">
+       <section className="details-main-container">
         <div className="details-heading">
           <img src="/images/basil-leaf.png" alt="image of a green basil leaf"/>
         </div>
@@ -111,7 +111,7 @@ const Contact = () => {
             <p>NY 10028, USA</p>
           </div>
         </div>
-       </section> */}
+       </section>
        {/* -- ====CONTACT DETAILS SECTION ENDS HERE====  */}
 
        {/* -- ====FOOTER SECTION STARTS HERE====  */}
