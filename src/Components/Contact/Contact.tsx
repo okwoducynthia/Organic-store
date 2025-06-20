@@ -1,7 +1,7 @@
 import "./Contact.css"
-import { NavLink } from "react-router-dom"
-import { MdClose } from "react-icons/md";
-import { BsSearch } from "react-icons/bs";
+// import { NavLink } from "react-router-dom"
+// import { MdClose } from "react-icons/md";
+// import { BsSearch } from "react-icons/bs";
 import { useState } from "react";
 
 
@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <div>
-      {sidebar && (
+      {/* {sidebar && (
         <div
           className="bg-transparent-grey-bg w-[100%] h-full fixed right-0 top-0 flex justify-end"
           style={{ zIndex: 1000 }}>
@@ -43,9 +43,9 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-      )}
+      )} */}
       {/* -- ====NAVBAR SECTION STARTS HERE====  */}
-      <header className="contact-header-container">
+      {/* <header className="contact-header-container">
       <div className="contact-header-logo">
         <img
           src="/images/organic-store-logo5.svg"
@@ -75,7 +75,7 @@ const Contact = () => {
       <span className="contact-header-nav-icon">
         <i className="fa-solid fa-bars"  onClick={toggleSidebar}></i>
       </span>
-    </header>
+    </header> */}
     {/* -- ====NAVBAR SECTION ENDS HERE====  */}
 
     {/* -- ====HERO SECTION STARTS HERE====  */}
@@ -114,7 +114,7 @@ const Contact = () => {
        </section>
        {/* -- ====CONTACT DETAILS SECTION ENDS HERE====  */}
 
-       {/* -- ====FOOTER SECTION STARTS HERE==== 
+       -- ====FOOTER SECTION STARTS HERE==== 
     <footer>
       <div className="contact-footer-container">
         <div className="contact-footer-first">
@@ -127,10 +127,10 @@ const Contact = () => {
         <div className="contact-footer-nav">
           <h1>Website</h1>
           <ul>
-            <NavLink to={"/"}><li>Home</li></NavLink>
+            {/* <NavLink to={"/"}><li>Home</li></NavLink>
             <NavLink to={"/about"}><li>About</li></NavLink>
             <NavLink to={"/products"}><li>Products</li></NavLink>
-            <NavLink to={"/contact"}><li>Contact</li></NavLink>
+            <NavLink to={"/contact"}><li>Contact</li></NavLink> */}
           </ul>
         </div>
 
@@ -172,7 +172,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </footer> */}
+    </footer>
     {/* -- ====FOOTER SECTION ENDS HERE==== </main> */}
     </div>
   )
