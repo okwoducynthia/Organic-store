@@ -94,6 +94,9 @@
   font-family: var(--merriweather-font);
 }
 /* ====HERO SECTION ENDS HERE==== */
+.details-main-container {
+  height: 20rem;
+}
 .details-heading {
   justify-items: center;
 }
@@ -104,15 +107,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85%;
-  height: 40vh;
-  margin: auto;
   gap: 30px;
 }
 .details-sub-container div {
   background-color: var(--white-color);
   width: 30%;
-  height: 25vh;
+  height: 200px;
   text-align: center;
   align-content: center;
   border-radius: 7px;
@@ -251,14 +251,16 @@
   .contact-hero h1 {
     font-size: 40px;
   }
-  .details-sub-container {
-    flex-direction: column;
+  .details-main-container {
     height: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .details-sub-container {
+    flex-direction: column;
+  }
   .details-sub-container div {
-    width: 80%;
+    width: 70%;
   }
   .contact-footer-container {
     flex-direction: column;

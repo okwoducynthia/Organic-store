@@ -87,7 +87,7 @@ const Contact = () => {
       {/* -- ====HERO SECTION ENDS HERE====  */}
 
       {/* -- ====CONTACT DETAILS SECTION STARTS HERE====  */}
-       <section>
+       <section className="details-main-container">
         <div className="details-heading">
           <img src="/images/basil-leaf.png" alt="image of a green basil leaf"/>
         </div>
