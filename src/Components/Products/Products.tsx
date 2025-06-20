@@ -81,7 +81,7 @@ const Products = () => {
       {/* -- ====SHOP SECTION STARTS HERE====  */}
       <section>
         <div className="shop-main-container">
-          <div>
+          <div className="shop">
             <h1>Shop</h1>
           </div>
 
