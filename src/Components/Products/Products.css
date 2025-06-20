@@ -135,13 +135,17 @@
 /* ====SHOP SECTION ENDS HERE==== */
 
 /* ====FOOTER SECTION STARTS HERE==== */
-.products-footer-container {
+.products-footer-main {
   background-color: var(--black-color);
   color: var(--white-color);
+  height: 60vh;
+}
+.products-footer-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 60vh;
+  margin-bottom: 90px;
+  padding-top: 30px;
 }
 .products-footer-container div {
   width: 20%;
@@ -156,12 +160,12 @@
   line-height: 30px;
 }
 .products-footer-nav h1 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: var(--merriweather-font);
 }
 .products-footer-nav ul li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--merriweather-font);
   line-height: 30px;
   color: rgba(255, 255, 255, 0.712);
@@ -172,12 +176,12 @@
   color: white;
 }
 .products-footer-quick-links h1 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: var(--merriweather-font);
 }
 .products-footer-quick-links ul li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--merriweather-font);
   line-height: 35px;
   color: rgba(255, 255, 255, 0.712);
@@ -188,12 +192,12 @@
   color: white;
 }
 .products-footer-site-links h1 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: var(--merriweather-font);
 }
 .products-footer-site-links ul li {
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--merriweather-font);
   line-height: 30px;
   color: rgba(255, 255, 255, 0.712);
@@ -212,15 +216,15 @@
   border: none;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.267);
+  margin-bottom: 30px;
 }
 .products-footer-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 15vh;
 }
 .products-footer-icons div p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--merriweather-font);
 }
 .products-footer-socials {
@@ -270,16 +274,15 @@
     justify-items: center;
     width: 50%;
   }
+  .products-footer-main {
+    height: 100%;
+  }
   .products-footer-container {
     flex-direction: column;
-    height: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
   }
   .products-footer-container div {
     width: 80%;
     text-align: center;
-    margin-bottom: 20px;
   }
   .products-footer-icons {
     flex-direction: column;
@@ -293,11 +296,17 @@
   .products-header-logo img {
     width: 100%;
   }
+  .shop-main-container div h1 {
+    font-size: 30px;
+  }
   .shop-sub-container div {
     width: 90%;
   }
   .shop-details img {
     width: 90%;
+  }
+  .products-footer-container {
+    margin-bottom: 20px;
   }
   .products-footer-first img{
     width: 40%;

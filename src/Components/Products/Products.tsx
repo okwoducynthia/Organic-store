@@ -260,7 +260,7 @@ const Products = () => {
     </main>
 
     {/* -- ====FOOTER SECTION STARTS HERE====  */}
-    <footer>
+    <footer className="products-footer-main">
       <div className="products-footer-container">
         <div className="products-footer-first">
           <img src="/images/organic-store-white-logo.png" alt="image of the company logo"/>
