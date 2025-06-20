@@ -79,11 +79,11 @@ const Contact = () => {
     {/* -- ====NAVBAR SECTION ENDS HERE====  */}
 
     {/* -- ====HERO SECTION STARTS HERE====  */}
-      {/* <section>
+      <section>
         <div className="contact-hero">
           <h1>Get In Touch</h1>
         </div>
-      </section> */}
+      </section>
       {/* -- ====HERO SECTION ENDS HERE====  */}
 
       {/* -- ====CONTACT DETAILS SECTION STARTS HERE====  */}
