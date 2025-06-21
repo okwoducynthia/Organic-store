@@ -96,9 +96,6 @@
 .hero-description {
   width: 40%;
 }
-.hero-description img {
-  margin-bottom: 20px;
-}
 .hero-description h4 {
   font-size: 17px;
   font-family: var(--merriweather-font);
@@ -173,7 +170,7 @@
 
 /* ====BEST PRODUCTS SECTION STARTS HERE==== */
 .best-container-main {
-  height: 40rem;
+  height: 100vh;
   justify-items: center;
   align-content: center;
 }
@@ -192,12 +189,10 @@
   align-items: center;
   text-align: center;
   margin-top: 50px;
+  gap: 20px;
 }
 .best-sub-container div {
-  width: 22%;
-}
-.best-sub img {
-  width: 93%;
+  width: 20%;
 }
 .best-sub p {
   font-size: 14px;
@@ -227,7 +222,7 @@
 }
 .fresh-image {
   justify-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .fresh-image img {
   width: 12%;
@@ -318,13 +313,14 @@
 
 /* ====TRENDING PRODUCTS SECTION STARTS HERE==== */
 .trending-container {
-  height: 40rem;
+  height: 100vh;
   justify-items: center;
   align-content: center;
 }
 .trending-heading {
   text-align: center;
   justify-items: center;
+  margin-bottom: 20px;
 }
 .trending-heading h1 {
   font-size: 30px;
@@ -336,13 +332,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 20px;
 }
 .trend-sub-container div {
   justify-items: center;
-  width: 22%;
-}
-.trend-sub img {
-  width: 93%;
+  width: 20%;
 }
 .trend-sub p {
   font-size: 14px;
@@ -367,18 +361,12 @@
 
 /* =CUSTOMER'S REVIEWS SECTION STARTS HERE= */
 .customers-container {
-  background: linear-gradient(rgba(255, 255, 255, 0.849)),
-    url(images/logo-leaf2-free-img.png);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-color: rgba(248, 246, 243, 0.473);
-  height: 40rem;
+  background-color: rgba(248, 246, 243, 0.475);
   padding-top: 60px;
 }
 .customers-heading {
   justify-items: center;
   text-align: center;
-  margin-bottom: 6.2rem;
 }
 .customers-heading h1 {
   font-size: 38px;
@@ -391,6 +379,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 90vh;
   gap: 20px;
 }
 .customers-sub-container div {
@@ -411,7 +400,6 @@
     url(images/sydney-rae-668606-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: -70px;
 }
 .customers-sub-container div:nth-of-type(3) {
   height: 350px;
@@ -473,7 +461,6 @@
   align-items: center;
   flex-wrap: wrap;
   background-color: rgb(248, 246, 243);
-  margin-top: 70px;
   height: 9rem;
 }
 .brand-container div {
@@ -684,25 +671,22 @@
     justify-items: center;
   }
   .best-sub-container div {
-    width: 80%;
+    width: 40%;
     margin-bottom: 30px;
-  }
-  .best-sub img {
-    width: 100%;
   }
   .fresh-container {
     height: 100%;
-    padding-bottom: 65px;
+    padding-bottom: 45px;
   }
   .fresh-sub-container {
     flex-direction: column;
   }
   .fresh-sub-container div {
-    width: 80%;
+    width: 60%;
     height: 300px;
   }
   .fresh-description img {
-    width: 25%;
+    width: 30%;
   }
   .first-container {
     flex-direction: column;
@@ -722,25 +706,18 @@
     flex-direction: column;
   }
   .trend-sub-container div {
-    width: 80%;
-    margin-bottom: 30px;
-  }
-  .trend-sub img {
-    width: 100%;
-  }
-  .customers-container {
-    height: 100%;
-    padding-bottom: 40px;
+    width: 40%;
   }
   .customers-sub-container {
     flex-direction: column;
+    padding-bottom: 40px;
+    height: 100%;
   }
   .customers-sub-container div {
-    width: 80%;
+    width: 60%;
     justify-items: center;
   }
   .customers-sub-container div:nth-of-type(1) {
-    margin-bottom: 80px;
     height: 320px;
   }
   .customers-sub-container div:nth-of-type(2) {
@@ -795,8 +772,14 @@
   .delivery-container div {
     height: 15vh;
   }
+  .best-sub-container div {
+    width: 70%;
+  }
   .best-heading h1 {
     font-size: 22px;
+  }
+  .fresh-sub-container div {
+    width: 80%;
   }
   .fresh-image img {
     width: 25%;
@@ -814,8 +797,11 @@
     text-align: center;
     font-size: 18px;
   }
-  .customers-container {
-    background-size: 10rem;
+  .trend-sub-container div {
+    width: 70%;
+  }
+  .customers-sub-container div {
+    width: 80%;
   }
   .customers-heading h1 {
     font-size: 25px;
