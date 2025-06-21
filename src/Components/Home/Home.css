@@ -178,7 +178,8 @@
 }
 .best-heading {
   justify-items: center;
-  text-align: center;
+  margin: auto;
+  width: 20%;
 }
 .best-heading h1 {
   font-size: 30px;
@@ -321,7 +322,6 @@
   align-content: center;
 }
 .trending-heading {
-  text-align: center;
   justify-items: center;
   margin-bottom: 20px;
 }
