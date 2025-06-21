@@ -740,7 +740,7 @@
     padding-bottom: 50px;
   }
   .brand-container div {
-    width: 80%;
+    width: 30%;
     text-align: center;
     justify-items: center;
   }
@@ -751,7 +751,7 @@
     padding-bottom: 30px;
   }
   .footer-container div {
-    width: 80%;
+    width: 50%;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -777,8 +777,7 @@
     font-size: 25px;
   }
   .delivery-container div {
-    height: 120px;
-    /* height: 15vh; */
+    height: 15vh;
   }
   .best-sub-container div {
     width: 70%;
@@ -834,6 +833,9 @@
   }
   .trending-heading h1 {
     font-size: 18px;
+  }
+  .footer-first img {
+    width: 50%;
   }
   .footer-first h4 {
     font-size: 15px;
