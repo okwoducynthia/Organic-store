@@ -258,15 +258,6 @@
 
 /* ====MEDIA QUERY STARTS HERE==== */
 @media (max-width: 1324px) {
- .about-header-container div:nth-of-type(1) {
-    width: 20%;
-  }
- .about-header-container div:nth-of-type(2) {
-    width: 50%;
-  }
-.about-header-container div:nth-of-type(3) {
-    width: 20%;
-  }
  .about-header-logo img {
     width: 60%;
   }
@@ -336,7 +327,7 @@
     padding-bottom: 30px;
   }
   .about-footer-container div {
-    width: 80%;
+    width: 40%;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -358,8 +349,14 @@
   .about-hero {
     height: 40vh;
   }
+  .favourite-image {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
   .favourite-image img {
-    width: 35%;
+    width: 100%;
   }
   .favourite-description div {
     width: 90%;

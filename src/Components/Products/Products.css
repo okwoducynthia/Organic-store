@@ -258,9 +258,11 @@
   .shop-sub-container {
     flex-direction: column;
   }
-  .shop-sub-container div {
-    justify-items: center;
-    width: 50%;
+  .shop-sub-container div:nth-of-type(1) {
+    background-color: pink;
+}
+  .shop-details img {
+    width: 100%;
   }
   .products-footer-main {
     height: 100%;
@@ -269,7 +271,7 @@
     flex-direction: column;
   }
   .products-footer-container div {
-    width: 80%;
+    width: 50%;
     text-align: center;
   }
   .products-footer-icons {
@@ -292,10 +294,7 @@
     font-size: 30px;
   }
   .shop-sub-container div {
-    width: 90%;
-  }
-  .shop-details img {
-    width: 90%;
+    width: 80%;
   }
   .products-footer-container {
     margin-bottom: 20px;
