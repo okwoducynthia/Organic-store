@@ -367,10 +367,10 @@
 
 /* =CUSTOMER'S REVIEWS SECTION STARTS HERE= */
 .customers-container {
-  background: linear-gradient(rgba(255, 255, 255, 0.849)),
+  /* background: linear-gradient(rgba(255, 255, 255, 0.849)),
     url(images/logo-leaf2-free-img.png);
   background-repeat: no-repeat;
-  background-size: 30rem;
+  background-size: 30rem; */
   background-color: rgba(248, 246, 243, 0.473);
   height: 40rem;
   padding-top: 60px;
@@ -686,9 +686,10 @@
   .best-sub-container div {
     width: 80%;
     margin-bottom: 30px;
+    justify-items: center;
   }
   .best-sub img {
-    width: 100%;
+    width: 80%;
   }
   .fresh-container {
     height: 100%;
