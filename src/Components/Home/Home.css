@@ -777,7 +777,8 @@
     font-size: 25px;
   }
   .delivery-container div {
-    height: 15vh;
+    height: 120px;
+    /* height: 15vh; */
   }
   .best-sub-container div {
     width: 70%;
@@ -804,7 +805,7 @@
     padding: 12px 20px;
   }
   .first-container h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .first-container button {
     padding: 14px 20px;
@@ -815,8 +816,6 @@
   }
   .customers-sub-container div {
     width: 80%;
-    justify-items: center;
-    align-content: center;
   }
   .customers-heading h1 {
     font-size: 18px;
