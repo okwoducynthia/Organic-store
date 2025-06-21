@@ -258,9 +258,6 @@
   .shop-sub-container {
     flex-direction: column;
   }
-  .shop-sub-container div:nth-of-type(1) {
-    background-color: pink;
-}
   .shop-details img {
     width: 100%;
   }
