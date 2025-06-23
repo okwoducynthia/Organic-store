@@ -2,6 +2,7 @@ import "./Products.css"
 import { NavLink } from "react-router-dom"
 import { MdClose } from "react-icons/md";
 import { BsSearch } from "react-icons/bs";
+import { ProductData } from "../../Data/ProductData/ProductData";
 import { useState } from "react";
 
 const Products = () => {
@@ -87,171 +88,26 @@ const Products = () => {
 
           <div className="shop-sub-container">
             <div className="shop-details">
-              <img
-                src="/images/coffee-asorted.jpg"
-                alt="image of a coffee bag"
-              />
-              <p>Groceries</p>
-              <h3>Assorted Coffee</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£35.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img
-                src="/images/cashew-butter-500-300x300.jpg"
-                alt="image of cashew butter"
-              />
-              <p>Groceries</p>
-              <h3>Cashew Butter</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4><del>£35.00</del>£25.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img
-                src="/images/diabetic-cookies-300x300.jpg"
-                alt="image of diabetic-cookies"
-              />
-              <p>Groceries</p>
-              <h3>Diabetic Cookies</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star" id="empty-star"></i>
-              <h4><del>£35.00</del>£25.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img src="/images/eggs-300x300.jpg" alt="image of eggs" />
-              <p>Groceries</p>
-              <h3>Farm Fresh Eggs</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£34.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img
-                src="/images/orage-juice-kariz.jpg"
-                alt="image of fresh orange Juice"
-              />
-              <p>Juice</p>
-              <h3>Fresh orange Juice</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£18.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img src="/images/organic-honey-300x300.jpg" alt="image of organic-honey" />
-              <p>Groceries</p>
-              <h3>Fresh Organic Honey</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£34.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img src="/images/sanitizer.jpg" alt="image of hand sanitizer" />
-              <p>Groceries</p>
-              <h3>Hand Sanitizer</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£15.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img
-                src="/images/red-chillies (1).jpg"
-                alt="image of red-chillies"
-              />
-              <p>Groceries</p>
-              <h3>Handpicked Red Chillies</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£19.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img src="/images/edible-oil.jpg" alt="image of edible oil" />
-              <p>Groceries</p>
-              <h3>Natural Extracted Edible Oil</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4><del>£34.00</del> £25.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img
-                src="/images/face-wash-300x300.jpg"
-                alt="image of face-wash"
-              />
-              <p>Groceries</p>
-              <h3>Organic Face Shrub</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£35.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img
-                src="/images/pulses-300x300.jpg"
-                alt="image of pulses"
-              />
-              <p>Groceries</p>
-              <h3>Pulses From Organic Farm</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <h4>£15.00</h4>
-            </div>
-
-            <div className="shop-details">
-              <img
-                src="/images/wheat-300x300.jpg"
-                alt="image of wheat"
-              />
-              <p>Groceries</p>
-              <h3>Wheat From Organic Farms</h3>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star"></i>
-              <i className="fa-solid fa-star" id="empty-star"></i>
-              <h4>£34.00</h4>
+              {ProductData .map((items: any) => (
+                <>
+                  <img src={items.image} alt="" />
+                  <p>{items.category}</p>
+                  <h3>{items.name}</h3>
+                  <i>
+                    {Array.from({ length: items.rating }).map((_, i) => (
+                      <span key={i} className="star">
+                        &#9733;
+                      </span>
+                    ))}
+                    {Array.from({ length: 5 - items.rating }).map((_, i) => (
+                      <span key={i} id ="empty-star">
+                        &#9733;
+                      </span>
+                    ))}
+                  </i>
+                  <h4>{items.price}</h4>
+                </>
+              ))}
             </div>
           </div>
         </div>
