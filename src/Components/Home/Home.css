@@ -491,8 +491,8 @@
 .footer-container div {
   width: 20%;
 }
-.footer-first {
-  justify-items: center;
+.footer-first img{
+  margin: auto;
 }
 .footer-first h4 {
   font-size: 17px;
@@ -753,9 +753,6 @@
     width: 50%;
     text-align: center;
     margin-bottom: 20px;
-  }
-  .footer-first img {
-    width: 25%;
   }
   .footer-icons {
     flex-direction: column;
