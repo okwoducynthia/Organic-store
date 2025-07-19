@@ -173,18 +173,16 @@
 /* ====BEST PRODUCTS SECTION STARTS HERE==== */
 .best-container-main {
   height: 100vh;
-  justify-items: center;
-  align-content: center;
-}
-.best-heading {
-  justify-items: center;
-  margin: auto;
-  width: 20%;
+  padding-top: 50px;
 }
 .best-heading h1 {
+  text-align: center;
   font-size: 30px;
   font-family: var(--merriweather-font);
   margin-bottom: 20px;
+}
+.best-heading img {
+  margin: auto;
 }
 .best-sub-container {
   display: flex;
@@ -783,9 +781,6 @@
   .best-sub-container div {
     width: 70%;
   }
-  .best-heading {
-    width: 50%;
-  }
   .best-heading h1 {
     font-size: 18px;
   }
@@ -823,10 +818,6 @@
   .trend-sub-container div {
     width: 70%;
   }
-  /* .trending-heading {
-    width: 50%;
-    margin: auto;
-  } */
   .trending-heading h1 {
     font-size: 18px;
   }
