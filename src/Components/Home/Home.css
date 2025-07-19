@@ -369,8 +369,10 @@
   padding-top: 60px;
 }
 .customers-heading {
-  justify-items: center;
   text-align: center;
+}
+.customers-heading img {
+  margin: auto;
 }
 .customers-heading h1 {
   font-size: 38px;
@@ -718,12 +720,10 @@
   }
   .customers-sub-container {
     flex-direction: column;
-    /* padding-bottom: 40px; */
-    /* height: 100%; */
   }
   .customers-sub-container div {
     width: 60%;
-    /* justify-items: center; */
+    justify-items: center;
   }
   .customers-sub-container div:nth-of-type(1) {
     height: 20rem;
@@ -820,12 +820,11 @@
   .customers-heading h1 {
     font-size: 18px;
   }
-  .customers-heading {
-    margin-bottom: 20px;
-    /* width: 40%; */
+  /* .customers-heading {
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
   .trend-sub-container div {
     width: 70%;
   }
