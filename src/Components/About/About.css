@@ -165,8 +165,8 @@
 .about-footer-container div {
   width: 20%;
 }
-.about-footer-first {
-  justify-items: center;
+.about-footer-first img{
+  margin: auto;
 }
 .about-footer-first h4 {
   font-size: 17px;
@@ -330,9 +330,6 @@
     width: 40%;
     text-align: center;
     margin-bottom: 20px;
-  }
-  .about-footer-first img {
-    width: 100%;
   }
   .about-footer-icons {
     flex-direction: column;

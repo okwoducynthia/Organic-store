@@ -97,11 +97,9 @@
 .details-main-container {
   height: 20rem;
 }
-.details-heading {
-  justify-items: center;
-}
 .details-heading img {
   width: 11%;
+  margin: auto;
 }
 .details-sub-container {
   display: flex;
@@ -142,8 +140,8 @@
 .contact-footer-container div {
   width: 20%;
 }
-.contact-footer-first {
-  justify-items: center;
+.contact-footer-first img{
+  margin: auto;
 }
 .contact-footer-first h4 {
   font-size: 17px;

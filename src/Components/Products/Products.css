@@ -150,8 +150,8 @@
 .products-footer-container div {
   width: 20%;
 }
-.products-footer-first {
-  justify-items: center;
+.products-footer-first img{
+  margin: auto;
 }
 .products-footer-first h4 {
   font-size: 17px;
@@ -297,7 +297,7 @@
     margin-bottom: 20px;
   }
   .products-footer-first img{
-    width: 40%;
+    width: 60%;
   }
   .products-footer-first h4 {
     font-size: 15px;
