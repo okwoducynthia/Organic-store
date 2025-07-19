@@ -763,7 +763,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .header-container {
     height: 10vh;
   }
