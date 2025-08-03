@@ -8,16 +8,25 @@ const Navbar = () => {
 
   const [sidebar, setSidebar] = useState(false);
   const toggleSidebar = () => {
-    setSidebar(!sidebar);
+    setSidebar(prev => !prev);
+  };
+
+  const closeSidebar = () => {
+    setSidebar(false);
   };
 
   return (
       <div>
       {sidebar && (
         <div
-          className="bg-transparent-grey-bg w-[100%] h-full fixed right-0 top-0 flex justify-end"
-          style={{ zIndex: 1000 }}>
-          <div className="w-[90%] h-full flex flex-col font-heading-font w-[80%] h-[100%] py-5 px-2 bg-white-secondary bg-white">
+          className="bg-transparent-grey-bg w-full h-full fixed right-0 top-0 flex justify-end"
+          style={{ zIndex: 1000 }}
+          onClick={closeSidebar}
+        >
+          <div
+            className="w-[90%] sm:w-4/5 md:w-2/5 h-full flex flex-col font-heading-font py-5 px-2 bg-white"
+            onClick={(e) => e.stopPropagation()}
+          >
             <button onClick={toggleSidebar} className="self-end me-5 text-2xl h-[7vh]">
               <MdClose />
             </button>
@@ -31,14 +40,14 @@ const Navbar = () => {
                 <BsSearch />
               </span>
             </div>
-            <ul className="mt-5 w-full flex flex-col gap-y-3 text-lime-500 p-3 bg-white h-[100vh]">
-              <NavLink to={"/"}><li className="p-1">Home</li></NavLink>
-              <NavLink to={"/about"}><li className="p-1">About</li></NavLink>
-              <NavLink to={"/products"}><li className="p-1">Products</li></NavLink>
+            <ul className="mt-5 w-full flex flex-col gap-y-3 text-lime-500 p-3 bg-white h-full">
+              <NavLink to={"/"} onClick={closeSidebar}><li className="p-1">Home</li></NavLink>
+              <NavLink to={"/about"} onClick={closeSidebar}><li className="p-1">About</li></NavLink>
+              <NavLink to={"/products"} onClick={closeSidebar}><li className="p-1">Products</li></NavLink>
               <li className="p-1">Cart</li>
               <li className="p-1">Checkout</li>
               <li className="p-1">My account</li>
-              <NavLink to={"/contact"}><li className="p-1">Contact</li></NavLink>
+              <NavLink to={"/contact"} onClick={closeSidebar}><li className="p-1">Contact</li></NavLink>
             </ul>
           </div>
         </div>
@@ -57,10 +66,10 @@ const Navbar = () => {
         <div>
           <nav>
             <ul className="header-navlinks">
-              <NavLink to={"/"}><li><a href="">Home</a></li></NavLink>
-              <NavLink to={"/about"}><li><a href="">About</a></li></NavLink>
-              <NavLink to={"/products"}><li><a href="">Products</a></li></NavLink>
-              <NavLink to={"/contact"}><li><a href="">Contact</a></li></NavLink>
+              <li><NavLink to={"/"}>Home</NavLink></li>
+              <li><NavLink to={"/about"}>About</NavLink></li>
+              <li><NavLink to={"/products"}>Products</NavLink></li>
+              <li><NavLink to={"/contact"}>Contact</NavLink></li>
             </ul>
           </nav>
         </div>
